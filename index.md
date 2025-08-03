@@ -5,7 +5,7 @@ title: Shravel Sharma
 
 # Hi, I'm Shravel Sharma 👋
 
-I've been passionate about coding since high school — starting with the basics and diving deeper every year into areas like **IoT**, **edge computing**, **machine learning**, and **web development**. What began as curiosity quickly became a journey of building, experimenting, and solving real-world problems through technology.
+My journey in coding began back in high school, and since then, I've been continuously sharpening my skills across diverse areas like **Object-Oriented Programming**, **IoT**, **edge computing**, **machine learning**, and **web development**. I enjoy building systems that are both innovative and practical — ones that solve real-world problems using modern technologies.
 
 Currently, I’m actively involved in a research project focused on **machine learning in edge computing environments**, where we explore how to make intelligent systems more energy-efficient and responsive. This research is being prepared for publication in a peer-reviewed journal.
 
@@ -15,7 +15,24 @@ This portfolio showcases the work I've done — not just to demonstrate my techn
 
 # Featured Projects
 
+## Simple Reaction Game (State Machine in C#)
+Developed a console-based reaction timer game where users:
 
+- Insert a coin and respond to randomized delays.
+- Have their reaction times measured over three rounds.
+- Receive an average score, with logic preventing cheating.
+- Created unit test cases to validate state transitions, input handling, and timing logic.
+
+_Stack: C#, State Design Pattern, GUI Simulation Interface, Unit Testing
+
+## C# Console-Based Banking System
+
+A functional console application that can:
+- Perform deposit, withdrawal, and balance check operations.
+- Implement transaction rollback for secure banking.
+- Simulate real-world banking logic using OOP principles.
+
+_Stack: C#, .NET Core, Command Design Pattern
 
 ## Smart Shopping Store using IoT
 
