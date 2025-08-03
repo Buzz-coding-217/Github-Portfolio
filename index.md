@@ -3,8 +3,6 @@ layout: default
 title: Shravel Sharma
 ---
 
-# Hi, I'm Shravel Sharma 👋
-
 My journey in coding began back in high school, and since then, I've been continuously sharpening my skills across diverse areas like **Object-Oriented Programming**, **IoT**, **edge computing**, **machine learning**, and **web development**. I enjoy building systems that are both innovative and practical — ones that solve real-world problems using modern technologies.
 
 Currently, I’m actively involved in a research project focused on **machine learning in edge computing environments**, where we explore how to make intelligent systems more energy-efficient and responsive. This research is being prepared for publication in a peer-reviewed journal.
