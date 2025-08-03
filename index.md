@@ -1,123 +1,66 @@
 ---
 layout: default
+title: Shravel Sharma's Projects
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+Welcome to my portfolio!
 
-[Link to another page](./another-page.html).
+This site showcases my key projects, covering areas such as **IoT**, **Edge Computing**, **Machine Learning**, **Cloud Platforms**, and **Web Development**.
 
-There should be whitespace between paragraphs.
+# Featured Projects
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## 🛒 Smart Shopping Store using IoT
 
-# Header 1
+A customer-centric embedded system that uses sensors and edge devices to:
+- Detect items picked from shelves.
+- Update cart and billing in real-time.
+- Enhance in-store experience through automation.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+_Stack: Raspberry Pi, Sensors, MQTT, Node.js_
 
-## Header 2
+## 🍄 IoT-Based Mushroom Growth Monitor
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Developed a smart farming solution to monitor mushroom cultivation by tracking:
+- Humidity, Temperature, and Light using sensors.
+- Alerts and controls via edge dashboard.
 
-### Header 3
+_Stack: Raspberry Pi, HiveMQ, Python, Web Interface_
+
+> "Making farming smarter through data-driven insights."
+
+## 🧠 Energy-Aware Edge ML System
+
+Worked on optimizing **machine learning inference on edge devices** while reducing power consumption using:
+- Custom scheduling algorithms (Min-Min, Max-Min, MET, etc.)
+- Performance vs Energy trade-off analysis on Raspberry Pi clusters
+
+> "Bringing intelligence closer to data."
+
+## 🚶 Crowd Monitoring with YOLOv5
+
+Built a real-time crowd detection system:
+- Customized YOLOv5 to detect only people.
+- Defined zones to assess density and movement patterns.
+
+_Image & video inputs analyzed at the edge._
+
+## 🛍️ Fashion E-Commerce Platform
+
+Currently developing a personalized platform with features like:
+- Dynamic product filtering
+- Smart recommendations
+- Admin analytics dashboard
+
+_Frontend: HTML/CSS/JS, Backend: Node.js, DB: MongoDB_
+
+# Code Snippet
 
 ```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+// Connecting an IoT device with MQTT broker
+const mqtt = require("mqtt");
+const client = mqtt.connect("mqtt://broker.hivemq.com");
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+client.on("connect", () => {
+  client.subscribe("mushroom/growth");
+  console.log("Connected & Subscribed");
+});
