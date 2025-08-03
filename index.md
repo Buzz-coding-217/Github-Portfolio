@@ -21,7 +21,7 @@ Developed a console-based reaction timer game where users:
 - Receive an average score, with logic preventing cheating.
 - Created unit test cases to validate state transitions, input handling, and timing logic.
 
-_Stack: C#, State Design Pattern, GUI Simulation Interface, Unit Testing
+_Stack: C#, State Design Pattern, GUI Simulation Interface, Unit Testing_
 
 ## C# Console-Based Banking System
 
@@ -30,7 +30,7 @@ A functional console application that can:
 - Implement transaction rollback for secure banking.
 - Simulate real-world banking logic using OOP principles.
 
-_Stack: C#, .NET Core, Command Design Pattern
+_Stack: C#, .NET Core, Command Design Pattern_
 
 ## Smart Shopping Store using IoT
 
